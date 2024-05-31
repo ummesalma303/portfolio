@@ -107,6 +107,76 @@ nav{
 .year h4{
     font-size: 14px;
 }
+/* portfolio section responsive code start here */
+.portfolio-section{
+    padding: 0 20px 80px 20px;
+}
+.portfolio-parent ul{
+    display: block;
+}
+.portfolio-parent ul li{
+    margin-bottom: 16px;
+}
+.portfolio-img-text-parent{
+    display: block;
+}
+.portfolio-image img{
+    display: none;
+}
+.portfolio-text h2{
+    font-size: 32px;
+    margin: 8px 0 18px 0;
+}
+.portfolio-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.portfolio-text h4{
+    font-size: 14px;
+}
+.portfolio-image-2 img{
+    display: none;
+}
+/* contact section responsive code start here */
+.contact-section{
+    margin: 80px 20px;
+}
+.contact-title-parent{
+    gap: 0;
+}
+.contact-title-img img{
+   display: none;
+}
+/* contact section items responsive code start here */
+.contact-parent{
+    display: block;
+    gap: 50px;
+    width: 90%;
+}
+.contact-maps iframe{
+    width: 100%;
+}
+.contact-text-items{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+/* contact input and input */
+.contact-input-parent{
+    display:block;
+}
+.contact-input-items input{
+    width: 90%;
+}
+.textarea-parent textarea{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.footer-ul ul{
+   display: block;
+}
 }
 @media screen and (min-width:577px) and (max-width:768px) {
 .p{
@@ -219,6 +289,82 @@ nav{
 .year h4{
     font-size: 18px;
 }
+/* portfolio section responsive code start here */
+.portfolio-section{
+    padding: 0 20px 80px 20px;
+}
+.portfolio-parent ul{
+    display: block;
+}
+.portfolio-parent ul li{
+    margin-bottom: 16px;
+}
+.portfolio-img-text-parent{
+    display: block;
+}
+.portfolio-image img{
+    display: none;
+}
+.portfolio-text h2{
+    font-size: 32px;
+    margin: 8px 0 18px 0;
+}
+.portfolio-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.portfolio-text h4{
+    font-size: 14px;
+}
+.portfolio-image-2 img{
+    display: none;
+}
+/* contact section responsive code start here */
+.contact-section{
+    margin: 80px 20px;
+}
+.contact-title-parent{
+    gap: 0;
+}
+.contact-title-img img{
+   width: 100%;
+}
+/* contact section items responsive code start here */
+.contact-parent{
+    display: block;
+    gap: 50px;
+    width: 90%;
+}
+.contact-maps iframe{
+    width: 100%;
+}
+.contact-text-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+/* contact input and input */
+.contact-input-parent{
+    display:block;
+}
+.contact-input-items input{
+    width: 90%;
+}
+.textarea-parent textarea{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+/* footer section responsive code start here  */
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 20px;
+    padding: 20px 0;
+    color: #fff;
+    gap: 40px;
+}
 }
 @media screen and (min-width:769px) and (max-width:992px) {
 nav{
@@ -296,6 +442,74 @@ nav{
 .year h4{
     font-size: 18px;
 }
+/* portfolio section responsive code start here */
+.portfolio-section{
+    padding: 0 20px 80px 20px;
+}
+.portfolio-parent ul{
+    display: block;
+}
+.portfolio-parent ul li{
+    margin-bottom: 16px;
+}
+.portfolio-img-text-parent{
+    display: block;
+}
+.portfolio-image img{
+    display: none;
+}
+.portfolio-text h2{
+    font-size: 32px;
+    margin: 8px 0 18px 0;
+}
+.portfolio-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.portfolio-text h4{
+    font-size: 14px;
+}
+.portfolio-image-2 img{
+    display: none;
+}
+/* contact section responsive code start here */
+.contact-title-parent{
+    gap: 20px;
+}
+.contact-title-img img{
+   width: 100%;
+}
+/* contact section items responsive code start here */
+.contact-parent{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding-top: 30px;
+}
+.contact-maps iframe{
+    width: 100%;
+}
+.contact-text-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+.contact-text h2{
+    font-size: 16px;
+}
+/* contact input and input */
+.contact-input-parent{
+    display:flex;
+}
+.contact-input-items input{
+    width: 90%;
+}
+.textarea-parent textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
 nav{
@@ -361,5 +575,64 @@ nav{
 }
 .experience-text p{
     font-size: 18px;
+}
+/* portfolio section responsive code start here */
+.portfolio-section{
+    padding: 0 20px 80px 20px;
+}
+.portfolio-parent ul{
+    display: flex;
+}
+.portfolio-img-text-parent{
+    display: flex;
+}
+
+.portfolio-text h2{
+    font-size: 32px;
+    margin: 8px 0 18px 0;
+}
+.portfolio-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.portfolio-text h4{
+    font-size: 14px;
+}
+/* contact section responsive code start here */
+.contact-title-parent{
+    gap: 20px;
+}
+.contact-title-img img{
+   width: 100%;
+}
+/* contact section responsive items code start here */
+.contact-parent{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+.contact-maps iframe{
+    width: 100%;
+}
+.contact-text-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+.contact-text h2{
+    font-size: 16px;
+}
+/* contact input and input */
+.contact-input-parent{
+    display:flex;
+}
+.contact-input-items input{
+    width: 90%;
+}
+.textarea-parent textarea{
+    width: 100%;
+    margin-bottom: 20px;
 }
 }
