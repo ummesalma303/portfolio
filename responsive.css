@@ -1,23 +1,15 @@
 @media screen and (min-width:300px) and (max-width:576px) {
-    nav{
-        display: block;
+nav{
+       
         justify-content: center;
+}
+.logo h2{
         text-align: center;
-        padding: 20px 0;
-        background-color: black;
-    }
-    .ul-button-parent{
-        display: block;
-        margin: 20px 0;
-    }
-    .ul-button-parent ul{
-        display: block;
-    }
-    .ul-button-parent ul li{
-        margin-bottom: 20px;
-    }
-   /* banner section responsive code start here */
-   .banner-text-icon-parent{
+}
+.ul-button-parent{
+        display: none;
+}
+.banner-text-icon-parent{
     flex-direction: column-reverse;
     text-align: center;
     padding: 0 20px;
@@ -36,119 +28,338 @@
     text-align: center;
 }
 .banner-img img{
-    width: 100%;
-    margin: 20px 0;
+    width: 50%;
+    
 }
 .banner-btn{
-    margin: 20px 90px 30px 0;
-    text-align: center;
+   margin: 10px 70px 10px 0;
+}
+.banner-icon i{
+    margin: 20px 5px 0 10px;
+}
+.portfolio-btn {
+    padding: 8px 8px 10px 80px;
+}
+.hireme-btn{
+    top: 5px;
 }
 .marquee-parent{
     margin-top: 30px;
 }
-    
-    
+/* about section responsive code start here */
+.about-section{
+    margin: 30px 20px;
+}
+.about-parent{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.about-text{
+    width: 100%;
+}  
+.about-text h2{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.about-text p{
+    font-size: 16px;
+}
+.icon i{
+    font-size: 20px;
+}
+.about-icon-text-parent h2{
+    font-size: 42px;
+    margin: 16px 0;
+}
+.about-icon-text-parent h5{
+    font-size: 18px;
+} 
+/* experience section responsive code end here */
+.experience-section{
+    padding: 80px 20px;
+}
+.experience-parent{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.experience-text{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.experience-text h5{
+    font-size: 14px;
+}
+.experience-text h2{
+    font-size: 32px;
+    margin: 8px 0 18px 0;
+}
+.experience-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.designer-year-parent h3{
+    font-size: 22px;
+}
+.year{
+    justify-content: center;
+}
+.year h4{
+    font-size: 14px;
+}
 }
 @media screen and (min-width:577px) and (max-width:768px) {
-    nav{
-        display: block;
-        justify-content: center;
-        text-align: center;
-        padding: 20px 0;
-        background-color: black;
-    }
-    .ul-button-parent{
-        display: block;
-        margin: 20px 0;
-    }
-    .ul-button-parent ul{
-        display: block;
-    }
-    .ul-button-parent ul li{
-        margin-bottom: 20px;
-    }
-     /* banner section responsive code start here */
-     .banner-text-icon-parent{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 0 30px;
-    }
-    .banner-text{
-        text-align: center;
-    }
-    .banner-text h1{
-        font-size: 45px;
-    }
-    .banner-text p{
-        font-size: 17px;
-    }
-    .banner-text ul{
-        gap: 10px;
-        font-size: 20px;
-        display: inline-flex;
-        text-align: center;
-    }
-    .banner-img img{
-        width: 100%;
-        margin: 20px 0;
-    }
-    .banner-btn{
-        margin: 20px 90px 30px 0;
-        text-align: center;
-    }
-    .marquee-parent{
-        margin-top: 30px;
-    }
-   
+.p{
+     display: none;
+}
+.ul-button-parent ul{
+    font-size: 14px;
+}
+.nav-btn{
+    font-size: 14px;
+}
+/* banner section responsive code start here */
+.banner-text-icon-parent{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 0 30px;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 28px;
+}
+.banner-text p{
+    font-size: 16px;
+}
+.banner-text ul{
+     gap: 10px;
+    font-size: 18px;
+    display: inline-flex;
+    text-align: center;
+}
+.banner-img img{
+    width: 40%;
+    margin: 20px 0;
+}
+.banner-btn{
+    margin: 15px 0;
+    text-align: center;
+}
+
+.marquee-parent{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.banner-btn{
+    display: none;
+}
+/* about section responsive code start here */
+.about-section{
+    margin: 50px 60px;
+}
+.about-parent{
+    flex-direction: column-reverse;
+    text-align: center;
+}  
+.about-text{
+    width: 100%;
+}
+.about-text h2{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.about-text p{
+    font-size: 16px;
+}
+.icon i{
+    font-size: 20px;
+}
+.about-icon-text-parent h2{
+    font-size: 42px;
+    margin: 16px 0;
+}
+.about-icon-text-parent h5{
+    font-size: 18px;
+} 
+/* experience section responsive code end here */
+.experience-section{
+    padding: 80px 20px;
+}
+.experience-parent{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.experience-text{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.experience-text h5{
+    font-size: 18px;
+}
+.experience-text h2{
+    font-size: 39px;
+    margin: 8px 0 18px 0;
+}
+.experience-text p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.designer-year-parent{
+    margin-bottom: 39px;
+}
+.designer-year-parent h3{
+    font-size: 32px;
+}
+.year{
+    justify-content: center;
+}
+.year h4{
+    font-size: 18px;
+}
 }
 @media screen and (min-width:769px) and (max-width:992px) {
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    .ul-button-parent{
-        display: flex;
-    }
-    .ul-button-parent ul{
-        display: flex;
-    }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-button-parent{
+    display: flex;
+}
+.ul-button-parent ul{
+    display: flex;
+    font-size: 14px;
+}
  /* banner section responsive code start here */
-    .banner-text h1{
-        font-size: 20px;
-    }
-    .banner-text p{
-        font-size: 14px;
-    }
-    .banner-text ul{
-        gap: 8px;
-        font-size: 14px;
-    }
-    .banner-img img{
-        width: 100%;
-    }
+.banner-text h1{
+    font-size: 20px;
+}
+.banner-text p{
+    font-size: 14px;
+}
+.banner-text ul{
+    gap: 8px;
+    font-size: 14px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* about section responsive code start here */
+.about-section{
+    margin: 50px 60px;
+}
+.about-parent{
+    display: flex;
+}  
+.about-text h2{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.about-text p{
+    font-size: 16px;
+}
+.icon i{
+    font-size: 20px;
+}
+.about-icon-text-parent h2{
+    font-size: 42px;
+    margin: 16px 0;
+}
+.about-icon-text-parent h5{
+    font-size: 18px;
+}
+/* experience section responsive code end here */
+.experience-section{
+    padding: 80px 60px;
+}
+.experience-parent{
+    display:flex;
+    justify-content: space-between;
+}
+.experience-text h5{
+    font-size: 14px;
+}
+.experience-text h2{
+    font-size: 32px;
+    margin: 8px 0 18px 0;
+}
+.experience-text p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.designer-year-parent h3{
+    font-size: 22px;
+}
+
+.year h4{
+    font-size: 18px;
+}
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
-    nav{
-        display: flex;
-        justify-content: space-between;
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-button-parent{
+    display: flex;
+}
+.ul-button-parent ul{
+    display: flex;
     }
-    .ul-button-parent{
-        display: flex;
-    }
-    .ul-button-parent ul{
-        display: flex;
-    }
-    /* banner section responsive code start here */
-    .banner-text h1{
-        font-size: 50px;
-    }
-    .banner-text p{
-        font-size: 17px;
-    }
-    .banner-text ul{
-        font-size: 14px;
-    }
-    .banner-img img{
-        width: 100%;
-    }
+/* banner section responsive code start here */
+.banner-text h1{
+    font-size: 50px;
+}
+.banner-text p{
+    font-size: 17px;
+}
+.banner-text ul{
+    font-size: 18px;
+}
+.banner-img img{
+    width: 100%;
+}
+.marquee-parent{
+    margin-top: 30px;
+}
+/* about section responsive code start here */
+.about-section{
+    margin: 50px 60px;
+}
+.about-parent{
+    display: flex;
+}  
+.about-text h2{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.about-text p{
+    font-size: 16px;
+}
+.icon i{
+    font-size: 20px;
+}
+.about-icon-text-parent h2{
+    font-size: 42px;
+    margin: 16px 0;
+}
+.about-icon-text-parent h5{
+    font-size: 18px;
+}
+/* experience section responsive code end here */
+.experience-section{
+    padding: 80px 60px;
+}
+.experience-parent{
+    display:flex;
+    justify-content: space-between;
+}
+.experience-text h5{
+    font-size: 18px;
+}
+.experience-text p{
+    font-size: 18px;
+}
 }
